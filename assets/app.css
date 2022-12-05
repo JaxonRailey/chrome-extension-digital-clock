@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Digital 7';
+    src: url('digital-7.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    font-family: 'Digital 7', sans-serif;
+    color: #18f161;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 1vh;
+}
+
+.date {
+    font-size: 10vw;
+    text-transform: uppercase;
+}
+
+.time {
+    font-size: 15vw;
+}
+
+.day {
+    font-size: 7.5vw;
+    text-transform: capitalize;
+}
+
